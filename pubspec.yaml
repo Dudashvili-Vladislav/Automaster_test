@@ -1,0 +1,141 @@
+name: auto_master
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.8+18
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mask_text_input_formatter: ^2.5.0
+  carousel_slider: ^5.1.1
+  back_button_interceptor: any
+  cached_network_image: ^3.3.0
+  permission_handler: ^10.4.5
+  awesome_notifications: ^0.10.1
+  flutter_rating_bar: ^4.0.1
+  onesignal_flutter: ^3.5.1
+  cupertino_icons: ^1.0.2
+  another_xlider: ^3.0.1
+  #url_launcher: ^6.1.12
+  url_launcher: ^6.1.7
+  maps_launcher: ^2.0.1
+  image_picker: ^1.1.1
+  # wechat_camera_picker: 4.2.0
+  camerawesome: ^2.5.0
+  flutter_bloc: ^8.1.4
+  flutter_svg: ^2.0.7
+  searchfield: ^0.8.7
+  number_mask: ^1.0.4
+  sizer: ^2.0.15
+  animate_do:
+
+  camera: ^0.11.0+1
+  video_player: ^2.8.6
+  share_plus: ^12.0.1
+  mime: ^1.0.5
+  gal: ^2.3.0
+  chewie: ^1.8.1
+
+  # Local
+  # flutter_localization: ^0.2.0
+  # local_push_notifications: ^0.0.2
+
+  flutter_localizations: 
+    sdk: flutter
+
+  # DB
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  shared_preferences: ^2.2.2
+
+  # Route
+  routemaster: ^1.0.1
+
+  # State
+  provider: ^6.0.5
+
+  # Network
+  dio: ^4.0.6
+  json_annotation: ^4.8.1
+
+  # Geo
+  yandex_mapkit: ^3.3.3
+  geolocator: ^10.0.1
+  yandex_geocoder: ^2.1.0
+  flutter_polyline_points: ^2.0.0
+  location: ^5.0.0
+
+  copy_with_extension: ^4.0.0
+  easy_debounce: ^2.0.3
+
+  fluttertoast: ^8.2.4
+  # flutter_sticky_header: ^0.6.5
+  sticky_headers: ^0.3.0+2
+  record: ^6.1.2
+  audio_waveforms: 1.0.4
+
+  just_audio: ^0.9.44
+
+  photo_view: ^0.15.0
+
+  path_provider: ^2.1.2
+  
+  swipeable_tile: ^2.0.1
+  flutter_slidable: ^3.1.0
+
+  webview_flutter: ^4.8.0
+
+  # wechat_camera_picker: ^3.8.0
+
+  app_tracking_transparency: ^2.0.5
+
+  # flutter_inapp_purchase: ^5.6.1
+  # in_app_purchase: ^3.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.6
+  copy_with_extension_gen: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/vectors/
+
+  fonts:
+    - family: Barlow
+      fonts:
+        - asset: assets/fonts/Barlow-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Barlow-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Barlow-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Barlow-Bold.ttf
+          weight: 700
+          
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+ 
